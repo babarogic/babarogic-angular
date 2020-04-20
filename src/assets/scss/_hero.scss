@@ -1,0 +1,8 @@
+.hero-img {
+  max-width: 120%;
+  transform: translateX(-4rem);
+  @include media-breakpoint-down(md) {
+    max-width: 100%;
+    transform: translateX(0);
+  }
+}

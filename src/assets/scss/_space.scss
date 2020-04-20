@@ -2,3 +2,13 @@
   margin-top: 6rem;
   margin-bottom: 6rem;
 }
+
+.space-3-top {
+  margin-top: 10rem;
+}
+
+.p-md-3 {
+  @include media-breakpoint-down(md) {
+    padding: 2rem !important;
+  }
+}
